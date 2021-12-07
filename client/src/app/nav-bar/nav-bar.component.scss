@@ -1,0 +1,31 @@
+$btn-base-color: #6a4660;
+
+.cart-no{
+    position: absolute;
+    min-height: 25px;
+    min-width: 25px;
+    border-radius: 50%;
+    font-size: 12pt;
+    background: #f16c6c;
+    color: white;
+    text-align: center;
+    top: -12px;
+    right: 32px;
+}
+
+.mavik-text{
+    color:$btn-base-color;
+}
+
+.mavik-button {
+    color: $btn-base-color;
+    border-color: $btn-base-color;
+}
+
+.mavik-button:hover{
+    color: #fff;
+    background-color: $btn-base-color;
+    border-color: $btn-base-color;
+    text-decoration: none;
+}
+

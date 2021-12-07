@@ -13,7 +13,9 @@ namespace Core.Specifications
 
         public int? BrandId{get;set;}
         public int? TypeId{get;set;}
+        #nullable enable
         public string? Sort{get;set;}
+        #nullable disable
         private string _search;
         public string Search 
         { 
