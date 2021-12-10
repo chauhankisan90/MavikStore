@@ -1,0 +1,13 @@
+$btn-base-color: #6a4660;
+
+.mavik-button {
+    color: $btn-base-color;
+    border-color: $btn-base-color;
+}
+
+.mavik-button:hover{
+    color: #fff;
+    background-color: $btn-base-color;
+    border-color: $btn-base-color;
+    text-decoration: none;
+}
